@@ -11,7 +11,7 @@ The mobile app contains only one activity divided in 4 sections:
 The app also included some alert messages (to inform state of connection to the Internet or the webserver, state of downlink messages, among others)
 
 ## Libraries
-To make HTTP requests to the webserver, the [Volley library] (https://github.com/google/volley) was used. To subscribe to events associated to SocketIO, the [library from nkzawa](https://github.com/nkzawa/socket.io-android-chat) was used.
+To make HTTP requests to the webserver, the [Volley library](https://github.com/google/volley) was used. To subscribe to events associated to SocketIO, the [library from nkzawa](https://github.com/nkzawa/socket.io-android-chat) was used.
 
 ## Tests  
 ![Screenshot](../images/tests.png)
