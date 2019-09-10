@@ -13,7 +13,9 @@ The app also included some alert messages (to inform state of connection to the 
 ## Libraries
 To make HTTP requests to the webserver, the [Volley library](https://github.com/google/volley) was used. To subscribe to events associated to SocketIO, the [library from nkzawa](https://github.com/nkzawa/socket.io-android-chat) was used.
 
-## Tests  
+## Tests
+Not having the chance to test the system with a real battery system, it was tested with another thing that also emits heat: my hand! The image on the top left shows the frame resulting from the fast operation mode, you cannot recognize that is a hand but you can see it as a heat map as you are able to analyze the distribution of the heat across the frame. On the other hand, the image on the bottom right shows the frame resulting from the slow operation mode where you can clearly acknowledge that is a hand!
+
 ![Screenshot](../images/tests.png)
 
 ## Instructions
