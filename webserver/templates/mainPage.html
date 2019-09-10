@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Web application</title>
+		<script type="text/javascript" src="../static/js/jquery.js"> </script>
+		<script type="text/javascript" src="../static/js/code.js"> </script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+	</head>
+	
+	<body>
+
+		<p> Fan: <input id="fan_state"/ readonly> 	Mode: <input id="mode"/ readonly>	Threshold: <input id="threshold"/ readonly> </p>
+		
+		<p> Environmental Temperature: <input id="env_temp"/ readonly> 	Timestamp: <input id="env_temp_timestamp"/ readonly> </p>
+		
+		<p> Max Temperature: <input id="max_temp"/ readonly>   Min Temperature: <input id="min_temp"/ readonly>   Timestamp: <input id="image_timestamp"/ readonly> </p>
+		
+		<p> <img id="image" /> </p>
+		
+		<p> Fan State:	<select id="fan_select">
+							<option value="on">on</option>
+							<option value="off">off</option>
+						</select>
+		</p>
+		
+		<p> Transmission Mode:	<select id="mode_select">
+									<option value="slow">slow</option>
+									<option value="fast">fast</option>
+								</select>
+		</p>
+		
+		<p> Threshold: <input type="number" id="threshold_input" value="50" step="1" max="300" min="-40" required /> </p>
+		
+		<p>	<input type="submit" value="Change node parameters" onClick="change_parameters()" /> </p>
+		
+	</body>
+</html>
