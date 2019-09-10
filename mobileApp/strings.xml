@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Battery Thermal Monitoring</string>
+
+    <string name="fan_prompt">Choose fan state</string>
+    <string-array name="fan_sel">
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+
+    <string name="mode_prompt">Choose transmission mode</string>
+    <string-array name="mode_sel">
+        <item>slow</item>
+        <item>fast</item>
+    </string-array>
+
+</resources>

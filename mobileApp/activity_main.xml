@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/widget33"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/main"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:collapseColumns="0">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                android:text="Node Status"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Current Mode:"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/CurrentMode"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Fan State:"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/FanState"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Threshold (ºC):"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/Threshold"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                android:text="Temperature Sensor"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Temperature (ºC):"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/SensorTemperature"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Timestamp:"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/SensorTimestamp"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                android:text="Thermal Camera"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Max Temperature (ºC):"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/MaxTemperature"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Min Temperature (ºC):"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/MinTemperature"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Timestamp:"
+                    android:background="@color/fields"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/CamaraTimestamp"
+                    android:background="@color/fields2"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:gravity="center"/>
+            </TableRow>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="10dp"
+                android:text="Setup Parameters"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center" />
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Change fan state:"
+                    android:background="@color/sel"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <Spinner
+                    android:id="@+id/spinnerFan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/fan_sel"
+                    android:prompt="@string/fan_prompt" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Change mode"
+                    android:background="@color/sel"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <Spinner
+                    android:id="@+id/spinnerMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/mode_sel"
+                    android:prompt="@string/mode_prompt" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:text="Threshold value"
+                    android:background="@color/sel"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_column="1"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center"/>
+
+                <SeekBar
+                    android:id="@+id/seekBar"
+                    android:max="300"
+                    android:min="-40"
+                    android:progress="50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/seekBarText"
+                    android:textSize="10dp"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/sel"
+                android:text="Change node parameters"
+                />
+
+        </TableLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

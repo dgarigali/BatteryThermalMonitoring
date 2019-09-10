@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fields">#FFF9DE</color>
+    <color name="fields2">#D8FFF9</color>
+
+    <color name="sel">#C5B9D2</color>
+
+
+    <color name="main">#CCCCCC</color>
+
+    <color name="lightgray">#888888</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
