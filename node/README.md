@@ -41,7 +41,7 @@ git clone https://github.com/dgarigali/BatteryThermalMonitoring
 
 4) Check the parameters defined on conf.json. By default, the fan is off, the operation mode is **fast** and the temperature threshold (that activates fan if battery max temperature is above that value) is 50ºC.
 
-5) Install adafruit python libraty
+5) Install adafruit python library
 ```
 sudo pip3 install Adafruit_DHT
 ```
